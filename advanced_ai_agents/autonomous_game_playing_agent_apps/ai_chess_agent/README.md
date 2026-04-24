@@ -31,7 +31,7 @@ An advanced Chess game system where two AI agents play chess against each other 
 
 ```bash
 git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd ai_agent_tutorials/ai_chess_game
+cd advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent
 ```
 2. Install the required dependencies:
 
@@ -47,3 +47,4 @@ pip install -r requirements.txt
 streamlit run ai_chess_agent.py
 ```
 
+> **Note (personal):** The `cd` path in the original README was outdated — updated it to match the current repo structure. Also, `gpt-4o` works noticeably better than `gpt-3.5-turbo` here for move quality if you have access.
