@@ -48,3 +48,5 @@ streamlit run ai_chess_agent.py
 ```
 
 > **Note (personal):** The `cd` path in the original README was outdated — updated it to match the current repo structure. Also, `gpt-4o` works noticeably better than `gpt-3.5-turbo` here for move quality if you have access.
+
+> **Tip (personal):** Games can run long — I've found setting `max_turns` to around 80 in the Autogen config is a reasonable cap to prevent runaway games while still allowing most to reach a natural conclusion. Without a limit, a game occasionally loops if both agents get stuck in repetitive positions.
