@@ -19,8 +19,10 @@ This Project demonstrates R1's code capabilities with a PyGame code generator an
 1. Clone the GitHub repository
 ```bash
 git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-cd awesome-llm-apps/ai_agent_tutorials/ai_3dpygame_r1
+cd awesome-llm-apps/advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1
 ```
+
+> **Note:** The original README had an incorrect path (`ai_agent_tutorials/ai_3dpygame_r1`). The correct path within the repo is `advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1`.
 
 2. Install the required dependencies:
 ```bash
