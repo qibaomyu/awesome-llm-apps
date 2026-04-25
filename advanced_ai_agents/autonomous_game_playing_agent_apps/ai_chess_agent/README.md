@@ -52,3 +52,5 @@ streamlit run ai_chess_agent.py
 > **Tip (personal):** Games can run long — I've found setting `max_turns` to around 80 in the Autogen config is a reasonable cap to prevent runaway games while still allowing most to reach a natural conclusion. Without a limit, a game occasionally loops if both agents get stuck in repetitive positions.
 
 > **Tip (personal):** If you want to watch the game unfold more slowly (useful for learning/debugging), you can add a `time.sleep(1)` between moves in the main loop. Makes it much easier to follow the agents' decisions in real time without the board flashing through states too quickly.
+
+> **Tip (personal):** I noticed that on some runs the agents will redundantly describe their reasoning in very verbose paragraphs, which clutters the Streamlit output. Adding a line like `"Be concise — output only the move in UCI notation and one short sentence of reasoning."` to each agent's system prompt cleans this up considerably and also speeds up API response times.
