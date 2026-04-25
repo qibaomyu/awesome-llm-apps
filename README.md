@@ -29,6 +29,7 @@
 
 <!-- Personal fork: using this repo to learn RAG and multi-agent patterns. -->
 <!-- Primarily testing with OpenAI and Gemini models. -->
+<!-- Progress notes: started with RAG basics (rag_tutorials/), next up is multi-agent examples. -->
 
 <div align="center">
 
@@ -52,5 +53,4 @@ AI Agents · Multi-agent Teams · MCP Agents · RAG · Voice Agents · Agent Ski
 
 <p>
 <a href="#-quick-start"><kbd> &nbsp; 🚀 Quick Start &nbsp; </kbd></a>
-<a href="#-featured-ai-projects"><kbd> &nbsp; 📂 Browse Templates &nbsp; </kbd></a>
-<a href="https://www.theunwindai.com"><kbd> &nbsp; 📚 Step-by-Step Tutoria
+<a href="#-feature
