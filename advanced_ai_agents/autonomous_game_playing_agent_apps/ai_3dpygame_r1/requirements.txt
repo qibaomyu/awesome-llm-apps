@@ -2,3 +2,5 @@ agno>=2.2.10
 langchain-openai
 browser-use
 streamlit
+# pinning openai to avoid breaking changes with browser-use
+openai>=1.0.0,<2.0.0
