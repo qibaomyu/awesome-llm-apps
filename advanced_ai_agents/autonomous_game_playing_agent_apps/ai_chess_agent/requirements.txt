@@ -2,3 +2,6 @@ anthropic
 python-chess
 stockfish
 rich
+# Optional: stockfish binary must be installed separately
+# On macOS: brew install stockfish
+# On Ubuntu: sudo apt-get install stockfish
